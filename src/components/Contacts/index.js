@@ -6,16 +6,16 @@ import Form from "./Form";
 function Contacts() {
   const [contacts, setContacts] = useState([
     {
-      fullname: "foruk",
-      phone_number: 12312321,
+      fullname: "Ömer Faruk Köse",
+      phone_number: 543801,
     },
     {
-      fullname: "ali",
+      fullname: "Elif Işıkhan",
       phone_number: 5445456,
     },
     {
-      fullname: "ensar",
-      phone_number: 6116611,
+      fullname: "Ensar Hayıroğlu",
+      phone_number: 616161,
     },
   ]);
   useEffect(() => {
